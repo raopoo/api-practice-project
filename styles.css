@@ -1,0 +1,40 @@
+body{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.mainDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+#weather{
+    margin: 1rem;
+    padding: 1 rem;
+}
+
+#animals{
+    margin: 1rem;
+    padding: 1 rem;
+}
+nav{
+    text-align: center;
+    background-color: aquamarine;
+}
+ul{
+    display:flex;
+    list-style-type: none;
+    
+}
+a{
+    padding: 1rem;
+    margin: 1rem;
+    text-decoration: none;
+  
+}
+.animalsImg{
+    height: 15rem;
+    width: 15rem;
+}
