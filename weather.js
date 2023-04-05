@@ -2,7 +2,7 @@ let txtBox = document.getElementById("txtBox");
 let btn = document.getElementById("btn");
 let weather = document.getElementById("weather");
 //console.log(input.value);
-const apiKey = "b009ffa5d81221526accabcc3e171d6e";
+const apiKey = config.API_KEY;
 
 const clickHandler = () =>{
     getWeather(txtBox.value);
@@ -33,7 +33,7 @@ const getWeather = async (search) =>{
     <p> Max : ${weatherObj.Max}</p>
     <p>Humidity : ${weatherObj.Humidity}</p>
     <p> Description : ${weatherObj.Description}</p>`;
-    console.log(weather);
+    //console.log(weather);
 }
 //getWeather();
 btn.addEventListener('click', clickHandler);
