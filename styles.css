@@ -1,27 +1,17 @@
-body{
-    text-align: center;
+*{
     margin: 0;
     padding: 0;
 }
-.mainDiv{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
-}
-#weather{
-    margin: 1rem;
-    padding: 1 rem;
-}
-
-#animals{
-    margin: 1rem;
-    padding: 1 rem;
+body{
+    text-align: center;
+   
 }
 nav{
     text-align: center;
     background-color: aquamarine;
+    padding: 1rem;
+    /* margin: 1rem; */
+
 }
 ul{
     display:flex;
@@ -34,7 +24,41 @@ a{
     text-decoration: none;
   
 }
+.mainDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+#weather{
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.btn{
+    padding: 0.5rem;
+    background-color: aquamarine;
+    border-style: none;
+    border-radius: 10px;
+}
+.catDiv{
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.catDiv{
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+.dogDiv{
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+
 .animalsImg{
     height: 15rem;
     width: 15rem;
+    margin: 0.5rem;
+    padding: 0.5rem;
 }
